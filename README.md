@@ -1,0 +1,1 @@
+# G-Quant-Strategic-Research
