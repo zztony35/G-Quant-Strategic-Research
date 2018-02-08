@@ -1,0 +1,14 @@
+Project 1:  Data Collection 
+Python reptiles creeper-Beautiful Soup functions
+
+Link： http://blog.csdn.net/zhengalen/article/details/51428169
+
+The above is for data extraction entry level information, please take a look and review the info.
+After you go over the information mention above, please check the following links:
+
+https://finance.yahoo.com/calendar/economic?from=2017-09-20
+
+Please try to obtain the data as shown below by following three steps:
+1. Crawl the data on this page
+2. Set a specific date range (01-01-2017 to 09-21-2017 ), achieving all the date information and store them in the local file. (one day per csv file)
+3. Try to learn the basic data format translation when you save to csv file. (transfer Sep to 09/2017 format, Aug transfer to 08/2017)
