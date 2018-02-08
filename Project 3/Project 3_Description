@@ -1,0 +1,7 @@
+Project 3 Achieving data and calculation
+
+1. Connect the python with sql database -readonly
+   import Pymysql
+   give user, password, host, post; to connect a remote database
+2. Given two dates (e.g. 01-02-2017; 09-21-2017)
+3. 
