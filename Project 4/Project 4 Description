@@ -1,0 +1,13 @@
+Purpose:
+1 Develop and test strategies on platform, conduct statistical analysis on testing results
+2 Keep being familiar to pandas, including organizing, retrieving, ranking, output etc.
+Description:
+1 Strategy: At the end of the month, open a position with long on SPY and short IWM (OR short SPY and long IWM, default weights are 50%,50%）
+2 Set the window for this position as follow: You can open the position on anyday of the last 10 days of the this month, and close the 
+  position at the anyday of the first 10 days of next month, find how can we get the best result
+3 Back-test is needed to start from 2000
+Hint:
+1 Merge the historical price data of SPY and IMM to on dataframe
+2 Write a function to find the date of the first trading day of each month
+3 Write a two-stage loop to calculate the maximum return 
+4 You will get 100 results for each month, take an average value and the find the best-performed begin&end
