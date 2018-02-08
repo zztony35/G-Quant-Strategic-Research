@@ -1,0 +1,5 @@
+Calculate the average monthly change rate of all current stocks of SP500 in last 10 year
+Output:
+1. Each stock's average change rate in rach month(Each stock - 12 months(number))
+2. Each month's average change rate of all stocks(Totally 12 numbers)
+3. Your investment suggestions
