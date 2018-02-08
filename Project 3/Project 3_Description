@@ -1,7 +1,16 @@
 Project 3 Achieving data and calculation
 
-1. Connect the python with sql database -readonly
+1. Connect the python with sql database -readonly (database: gmbp, account: “readonly”, Password: “123456”; IP address: 160.79.239.235)
    import Pymysql
    give user, password, host, post; to connect a remote database
 2. Given two dates (e.g. 01-02-2017; 09-21-2017)
-3. 
+3. Obtain 527 stocks (from SP, dow, nasdaq) price data, market cap data on above two dates
+    SQL code: 
+    Select distinct(stock_ticker) from index_component (To obtain 527 ticker name)
+    Select t id,ticker from security_lookup where ticker in (…);  (To get ticker-id pair)
+    Select ticker,adj_close from security_day_price where security_lookup_id in (…); 
+4. Get the price data of S&P 500
+5. Calculate the change rate of all stocks and rank them, it will generate three tables:
+1) Change rate rank of all single stock (including SPY)
+2) Average Change rate rank of all sectors
+3) Weighted Average Change rate rank of all sectors
